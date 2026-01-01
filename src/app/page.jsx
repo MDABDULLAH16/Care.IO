@@ -1,9 +1,12 @@
-import Image from "next/image";
+import Header from "@/components/Header";
+import Banner from "@/components/Home/Banner";
+ 
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-4xl text-center font-semibold">Care.IO</h1>
+    
+      <Banner></Banner>
    </div>
   );
 }
